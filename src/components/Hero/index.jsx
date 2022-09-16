@@ -1,7 +1,7 @@
 import styles from './style.module.css';
 import { getComponent } from '..';
 
-const HeroBanner = (props) => {
+const Hero = (props) => {
     const { path, fields } = props;
     const Container = getComponent('Container');
 
@@ -22,4 +22,4 @@ const HeroBanner = (props) => {
     );
 };
 
-export default HeroBanner;
+export default Hero;

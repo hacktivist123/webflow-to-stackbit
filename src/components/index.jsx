@@ -4,7 +4,7 @@ const components = {
     'Button': dynamic(() => import('./Button')),
     'Page': dynamic(() => import('./Page')),
     'Container': dynamic(() => import('./Container')),
-    'HeroBanner': dynamic(() => import('./HeroBanner'))
+    'hero': dynamic(() => import('./Hero'))
 };
 
 export function getComponent(type) {
