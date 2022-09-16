@@ -1,0 +1,40 @@
+.button {
+  padding-top: 5px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: lightgrey;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: lightgrey;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgrey;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: lightgrey;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+  transition-property: border, color;
+  transition-duration: 200ms, 200ms;
+  transition-timing-function: ease, ease;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.Link:local-styles {}
+
+.button:hover {
+border-top-color: #333;
+border-right-color: #333;
+border-bottom-color: #333;
+border-left-color: #333;
+color: #333;
+}

@@ -1,0 +1,100 @@
+body {
+  color: #02001d;
+  font-family: "Helvetica Neue",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  font-size: 1rem;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: .5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.875;
+  margin-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+pre {
+  background-color: #f3f4f6;
+  border: 1px solid 75747d;
+  border-radius: .25rem;
+  font-size: .875rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  padding: 1rem;
+  white-space: pre-wrap;
+}
+
+blockquote {
+  background: #f3f4f6;
+  border-left: .5rem solid #4c57c5;
+  margin: 1.5rem 0;
+  padding: 2rem 1.5rem;
+}
+
+blockquote p {
+  display: inline;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+p > img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2rem;
+  }
+  h2 {
+      font-size: 1.5rem;
+  }
+  h3 {
+      font-size: 1.25rem;
+  }
+}

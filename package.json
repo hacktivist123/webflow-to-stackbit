@@ -11,19 +11,18 @@
     "setup": "node ./contentful/import.js"
   },
   "dependencies": {
+    "contentful": "^9.2.4",
     "markdown-to-jsx": "^7.1.7",
     "next": "12.2.3",
+    "normalize.css": "^8.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.8",
     "contentful-export": "^7.18.0",
     "contentful-import": "^8.3.2",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.3",
-    "fs-extra": "^10.1.0",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.7"
+    "fs-extra": "^10.1.0"
   }
 }
