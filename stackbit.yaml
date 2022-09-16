@@ -1,0 +1,17 @@
+stackbitVersion: ~0.5.0
+ssgName: nextjs
+nodeVersion: '16'
+cmsName: contentful
+modelsSource:
+  type: contentful
+
+import:
+  type: contentful
+
+models:
+  page:
+    type: page
+    urlPath: '/{slug}'
+  HeroBanner:
+    type: section
+    urlPath: '/{slug}'
