@@ -12,6 +12,3 @@ models:
   page:
     type: page
     urlPath: '/{slug}'
-  HeroBanner:
-    type: section
-    urlPath: '/{slug}'
