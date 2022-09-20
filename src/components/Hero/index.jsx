@@ -25,6 +25,7 @@ const Hero = (props) => {
           </p>
         )}
       </Container>
+      <IconsField {...fields.icons}/>
     </section>
   );
 };

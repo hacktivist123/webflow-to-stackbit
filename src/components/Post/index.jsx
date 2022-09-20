@@ -17,9 +17,9 @@ const Post = (props) => {
     </Link>
     </h3>
     <div>
-    {category && (
+    {date && category && (
       <p data-sb-field-path=".category" className={styles.category}>
-        {category}
+        {date} | {category}
       </p>
     )}
     </div>

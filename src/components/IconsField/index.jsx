@@ -13,7 +13,7 @@ const IconsField = (props) => {
     fields: { icons },
   } = props;
   return (
-    <Container isSetion={false} data-sb-field-path={path}>
+    <Container isSetion={false}>
       <div data-sb-field-path=".icons" className={styles.icons-wrapper}>
         {icons.map((icon) => (
           <Icon key={icon._id} data-sb-object-id={icon._id} {...icon.fields} />

@@ -7,7 +7,6 @@ const components = {
     'hero': dynamic(() => import('./Hero')),
     'postFeed': dynamic(() => import('./PostFeed')),
     'Post': dynamic(() => import('./Post')),
-    'Date': dynamic(() => import('./Date')),
     'Footer' : dynamic(() => import('./Footer')),
     'Icon' : dynamic(() => import('./Icon')),
     'IconsField': dynamic(() => import('./IconsField'))
