@@ -7,7 +7,7 @@ const Page = (props) => {
     }
 
     const { page: { _id, fields } } = props;
-
+    const Footer = getComponent('Footer')
     return (
         <>
             <Head>
@@ -20,6 +20,7 @@ const Page = (props) => {
                     return (<Component path={`sections.${index}`} key={`${section.type}-${index}`} {...section} />);
                 })}
             </main>
+            <Footer/>
         </>
     );
 }

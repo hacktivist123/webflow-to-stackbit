@@ -2,7 +2,7 @@ import styles from './style.module.css';
 import { getComponent } from '..';
 
 const Hero = (props) => {
-    const { path, fields } = props;
+    const { fields } = props;
     const Container = getComponent('Container');
 
     const heroImageStyle = {
@@ -13,6 +13,7 @@ const Hero = (props) => {
         <section
             className={styles.hero}
             style={heroImageStyle}
+            data-sb-object-id={props._id}
         >
             <Container isSection={false} classes={styles[fields.textColor]}>
                 {fields.title && <h1 data-sb-field-path=".title" className={styles.hero__title}>{fields.title}</h1>}

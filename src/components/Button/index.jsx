@@ -1,13 +1,12 @@
 import styles from './style.module.css';
 
 const Button = (props) => {
-    const { url, text, classes, ...rest } = props;
+    const { url, text} = props;
 
     return (
         <a
-            className={[styles.button, classes, ''].join(' ')}
+            className={styles.button}
             href={url}
-            {...rest}
         >
             {text}
         </a>

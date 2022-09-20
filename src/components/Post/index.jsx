@@ -2,15 +2,15 @@ import Link from 'next/link'
 import { getComponent } from "..";
 import styles from "./style.module.css";
 
-const Date = getComponent('Date')
-const Button = getComponent('Button'
-)
+// const Date = getComponent('Date')
+const Button = getComponent('Button');
+
 
 const Post = (props) => {
-  const { title, summary, date, category, slug, ...rest } = props;
+  const { title, summary, date, category, slug, fields, path, button, ...rest } = props;
   return (
-    <div className={styles.wrapper} {...rest}>
-    <h3 className="text-3xl mb-3 leading-snug">
+    <div data-sb-field-path ={path} className={styles.wrapper} {...rest}>
+    <h3 className={styles.title}>
     <Link href={`/posts/${slug}`}>
     <a className={styles.title}>{title}</a>
     </Link>
