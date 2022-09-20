@@ -20,16 +20,12 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: white;
-  transition-property: border, color;
-  transition-duration: 200ms, 200ms;
-  transition-timing-function: ease, ease;
   color: #333;
   font-size: 14px;
   font-weight: 400;
+  text-decoration: none;
 }
 
-
-.Link:local-styles {}
 
 .button:hover {
 border-top-color: #333;

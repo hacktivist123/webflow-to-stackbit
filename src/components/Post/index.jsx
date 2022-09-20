@@ -7,9 +7,12 @@ const Button = getComponent('Button');
 
 
 const Post = (props) => {
-  const { title, summary, date, category, slug, fields, path, button, ...rest } = props;
+  const { title, summary, date, category, slug, path, button, ...rest } = props;
+  const { fields: buttonData } = button;
+
+  console.log(rest)
   return (
-    <div data-sb-field-path ={path} className={styles.wrapper} {...rest}>
+    <div data-sb-field-path={path} className={styles.wrapper} {...rest}>
     <h3 className={styles.title}>
     <Link href={`/posts/${slug}`}>
     <a className={styles.title}>{title}</a>
@@ -29,6 +32,7 @@ const Post = (props) => {
       </p>
     )}
     </div>
+    <Button data-sb-object-id={buttonData._id} data-sb-field-path=".buttonText" classes={styles.cta__button} url={buttonData.url} text={buttonData.buttonText} />
     </div>
   )
 }
