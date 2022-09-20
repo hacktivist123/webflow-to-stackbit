@@ -9,8 +9,6 @@ const Button = getComponent('Button');
 const Post = (props) => {
   const { title, summary, date, category, slug, path, button, ...rest } = props;
   const { fields: buttonData } = button;
-
-  console.log(rest)
   return (
     <div data-sb-field-path={path} className={styles.wrapper} {...rest}>
     <h3 className={styles.title}>
