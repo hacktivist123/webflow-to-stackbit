@@ -18,3 +18,25 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.hero__title {
+    display: block;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hero__subtitle {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    font-family: Merriweather;
+    color: #969696;
+    font-size: 16px;
+    font-weight: 300;
+}

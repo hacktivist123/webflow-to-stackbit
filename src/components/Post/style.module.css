@@ -17,6 +17,8 @@
 }
 
 .title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 30px;
@@ -26,6 +28,7 @@
 }
 
 .summary {
+  font-family: 'Merriweather', serif;
   display: block;
   margin-bottom: 14px;
   line-height: 144%;
