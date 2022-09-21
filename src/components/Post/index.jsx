@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { getComponent } from "..";
 import styles from "./style.module.css";
 
-// const Date = getComponent('Date')
 const Button = getComponent('Button');
 
 
@@ -18,7 +17,7 @@ const Post = (props) => {
     </h3>
     <div>
     { date && (
-      <p href="" data-sb-field-path=".date" className={styles.date}>
+      <p data-sb-field-path=".date" className={styles.date}>
         {date}
       </p>
     )}

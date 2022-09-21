@@ -9,7 +9,8 @@ const components = {
     'Post': dynamic(() => import('./Post')),
     'Footer' : dynamic(() => import('./Footer')),
     'Icon' : dynamic(() => import('./Icon')),
-    'IconsField': dynamic(() => import('./IconsField'))
+    'IconsField': dynamic(() => import('./IconsField')),
+    'SquareButton': dynamic(() => import('./SquareButton'))
 };
 
 export function getComponent(type) {

@@ -3,6 +3,7 @@ import { getComponent } from '..';
 
 const Container = getComponent('Container');
 const Post = getComponent('Post');
+const SquareButton = getComponent('SquareButton');
 
 const PostFeed = (props) => {
   if (!props.fields) {
@@ -20,6 +21,7 @@ const PostFeed = (props) => {
         {posts.map((post) => (
           <Post key={post._id} data-sb-object-id={post._id} {...post.fields} />
         ))}
+        <SquareButton text="More posts →"/>
       </div>
     </Container>
   );
