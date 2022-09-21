@@ -35,6 +35,8 @@
 }
 
 .category {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   display: inline-block;
   margin-right: 8px;
   color: #969696;

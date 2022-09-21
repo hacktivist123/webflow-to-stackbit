@@ -1,5 +1,6 @@
 
 .footer {
+
   padding-top: 29px;
   padding-bottom: 29px;
   border-top-style: solid;
@@ -10,18 +11,19 @@
 }
 
 .links {
-  margin-right: 10em;
+  margin-right: 34.375rem;
 }
 
 .link {
   display: inline-block;
-  margin-right: 6rem;
+  margin-right: 15px;
   transition-property: color;
   transition-duration: 200ms;
   transition-timing-function: ease;
   color: #aaa;
-  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  font-size: 12px;
   letter-spacing: 0.5px;
   text-decoration: none;
   text-transform: uppercase;
@@ -65,4 +67,8 @@
 .goToTopDiv{
   margin-right: 0px;
   float: right;
+}
+
+a#home {
+  color: #333
 }

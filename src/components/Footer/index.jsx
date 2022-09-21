@@ -2,11 +2,14 @@ import Link from 'next/link'
 import styles from './style.module.css';
 
 const Footer = () => {
+  const isactive = {
+    color: '#333'
+  }
   return (
     <footer className={styles.footer}>
       <div className={styles.links}>
-        <Link href='#'>
-          <a className={styles.link}>Home</a>
+        <Link href='#' id="home">
+          <a className={styles.link} style={isactive}>Home</a>
         </Link>
         <Link href='#'>
           <a className={styles.link}>All Posts</a>
