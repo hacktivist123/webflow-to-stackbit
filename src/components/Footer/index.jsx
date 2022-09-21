@@ -20,11 +20,9 @@ const Footer = () => {
         <Link href='#'>
           <a className={styles.link}>Contact</a>
         </Link>
-        <div className={styles.goToTopDiv}>
         <Link href=''>
-          <a className={styles.goToTopLink}>↑ Go To Top</a>
+          <a className={`${styles.link} ${styles.floatRight}`} id="">↑ Go To Top</a>
         </Link>
-        </div>
       </div>
     </footer>
   )

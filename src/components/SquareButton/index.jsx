@@ -7,7 +7,7 @@ const SquareButton = (props) => {
 
   return (
     <Container isSection={false} className={styles.buttonWrapper}>
-      <Link href="">
+      <Link href={props.url}>
       <a className={styles.button}>
         {props.text}
       </a>

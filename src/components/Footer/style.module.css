@@ -16,14 +16,14 @@
 
 .link {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 22px;
   transition-property: color;
   transition-duration: 200ms;
   transition-timing-function: ease;
   color: #aaa;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
   font-size: 12px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.5px;
   text-decoration: none;
   text-transform: uppercase;
@@ -50,9 +50,18 @@
   margin-bottom: 4px;
 }
 
-.goToTopLink {
+.floatRight{
+  margin-right: 0px;
+  float: right;
+}
+
+#home {
+  color: #333
+}
+
+.nav-link {
   display: inline-block;
-  margin-right: 6rem;
+  margin-right: 22px;
   transition-property: color;
   transition-duration: 200ms;
   transition-timing-function: ease;
@@ -62,13 +71,4 @@
   letter-spacing: 0.5px;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.goToTopDiv{
-  margin-right: 0px;
-  float: right;
-}
-
-a#home {
-  color: #333
 }

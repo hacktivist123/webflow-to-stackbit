@@ -21,7 +21,7 @@ const PostFeed = (props) => {
         {posts.map((post) => (
           <Post key={post._id} data-sb-object-id={post._id} {...post.fields} />
         ))}
-        <SquareButton text="More posts →"/>
+        <SquareButton text="More posts →" url="/posts"/>
       </div>
     </Container>
   );
