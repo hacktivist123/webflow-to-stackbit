@@ -17,10 +17,17 @@ const Post = (props) => {
     </Link>
     </h3>
     <div>
-    {date && category && (
-      <p data-sb-field-path=".category" className={styles.category}>
-        {date} | {category}
+    { date && (
+      <p href="" data-sb-field-path=".date" className={styles.date}>
+        {date}
       </p>
+    )}
+    {category && (
+      <Link href={`/categories/${category}`}>
+      <a href="" data-sb-field-path=".category" className={styles.category}>
+         | {category}
+      </a>
+      </Link>
     )}
     </div>
     <div>
