@@ -1,11 +1,11 @@
 # Webflow to Stackbit
 
-This is Nextjs version of a Webflow site. It demonstrates how to port a Webflow site to Stackbit using Next.js and Contentufl.
+This is Nextjs version of a Webflow site. It demonstrates how to port a Webflow site to Stackbit using Next.js and Contentful.
 
 ![](/docs/images/Screenshot%202022-09-23%20at%2011.27.10%20AM.png)
 
 
-<p style="text-align:center">The Webflow Site</p>
+<p align="center">The Webflow Site</p>
 
 
 ## Technologies Used:
