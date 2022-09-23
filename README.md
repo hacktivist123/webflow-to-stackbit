@@ -6,6 +6,7 @@ This is Nextjs version of a Webflow site. It demonstrates how to port a Webflow 
 
 <p style="text-align:center">The Webflow Site</p>
 
+
 <style>
   h2 {
     color: blue;
