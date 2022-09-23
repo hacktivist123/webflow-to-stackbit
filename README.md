@@ -12,7 +12,7 @@ This is Nextjs version of a Webflow site. It demonstrates how to port a Webflow 
 
 - Next.js
 - [Stackbit](https://stackbit.com)
-- Contentfu;
+- Contentful
 
 ## Installation and Usage
 
