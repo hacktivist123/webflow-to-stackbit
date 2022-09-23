@@ -4,32 +4,13 @@ This is Nextjs version of a Webflow site. It demonstrates how to port a Webflow 
 
 ![](/docs/images/Screenshot%202022-09-23%20at%2011.27.10%20AM.png)
 
+
 <p style="text-align:center">The Webflow Site</p>
 
 
-<style>
-  h2 {
-    color: blue;
-  }
-
-strong {
-  margin-top: 16px;
-  display: block;
-  font-weight: 700;
-}
-
-ul.text-field {
-  padding: 24px;
-  max-width: 760px;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.9;
-}
-</style>
-
 ## Technologies Used:
 
-<ul class="text-field">
+<ul>
 <li>Next.js</li>
 <li>Stackbit</li>
 <li>Contentful</li>
